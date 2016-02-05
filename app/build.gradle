@@ -1,0 +1,17 @@
+group 'com.findaway.challenge'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    compile 'com.squareup.okhttp3:okhttp:3.0.1'
+
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
